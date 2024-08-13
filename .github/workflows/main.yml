@@ -1,0 +1,8 @@
+            - name: SSH to Actions
+  # You may pin to the exact commit or the version.
+  # uses: rdp-studio/ssh2actions@a8e79534b898d33a0ae0c3c110ca32a141542873
+  uses: rdp-studio/ssh2actions@v2.0.0
+  with:
+    # choose tmate or ngrok mode
+    mode: # optional, default is tmate
+          
